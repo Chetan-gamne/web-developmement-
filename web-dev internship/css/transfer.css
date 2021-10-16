@@ -1,0 +1,45 @@
+table{
+    max-width: 50%;
+    max-height: 90%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table tr th{
+    background-color: hsl(205, 72%, 37%);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+th,td{
+    padding: 12px 15px;
+}
+
+.form{
+    background-color: rgb(218, 214, 215);
+    border-radius: 4px;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60vh;
+}
+
+
+form{
+    padding: 20px;
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;  
+}
+
+form input[name="amount"]{
+    padding: 5px 0;
+}
