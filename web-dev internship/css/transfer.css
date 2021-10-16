@@ -21,13 +21,17 @@ th,td{
 }
 
 .form{
-    background-color: rgb(218, 214, 215);
+    background-color: whitesmoke;
     border-radius: 4px;
     max-width: 50%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     height: 60vh;
+}
+
+select[id="user"]{
+    padding: 10px;
 }
 
 
@@ -42,4 +46,15 @@ form{
 
 form input[name="amount"]{
     padding: 5px 0;
+}
+
+input[name="submit"]{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[name="submit"]:hover{
+    background-color: green;
+    color: white;
 }
